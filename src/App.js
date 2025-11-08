@@ -23,7 +23,7 @@ function App() {
     // After 1.2s, show the result
     setTimeout(() => {
       const safeAge = Math.min(parsedAge, 18);
-      const batchYear = 2025 + (18 - safeAge);
+      const batchYear = 2026 + (18 - safeAge);
       setMessage(`Apply to YC Fall ${batchYear} batch.`);
       setPhase("result");
       setMsgKey((k) => k + 1);
